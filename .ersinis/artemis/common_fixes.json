@@ -1,0 +1,22 @@
+{
+    "WEB_ERROR: (-999)": {
+        "description": "WebView sayfa yükleme işlemi iptal edildi veya durduruldu.",
+        "solution": "Sayfayı yenilemeyi deneyin veya ağ bağlantısını kontrol edin. Genellikle kritik bir çökme değildir."
+    },
+    "OPTIMIZATIONGUIDEMODELDOWNLOADING": {
+        "description": "Chrome yerel LLM indirme denemesi.",
+        "solution": "Sunucu başlatma flag'lerine '--disable-features=OptimizationGuideModelDownloading' eklenerek çözüldü."
+    },
+    "BROWSER_SERVER_DISCONNECTED": {
+        "description": "Tarayıcı sunucusu (Node.js/WebSocket) bağlı değil.",
+        "solution": "server.js sürecinin aktifliğini kontrol edin. PTY terminali üzerinden sunucuyu yeniden başlatın."
+    },
+    "BROWSER_PROFILE_LOCKED": {
+        "description": "Tarayıcı profili başka bir süreç tarafından kilitlenmiş veya açılmıyor.",
+        "solution": "İlgili profilin 'SingletonLock' dosyasını temizleyin veya çalışan zombi tarayıcı süreçlerini sonlandırın."
+    },
+    "CLI_PARAMETER_MISSING": {
+        "description": "Script çağrılarında gerekli argümanlar (profile, url, text vb.) eksik.",
+        "solution": "Otomasyon katmanındaki argüman enjeksiyon mantığını kontrol edin ve eksik veriyi veri havuzundan çekerek tamamlayın."
+    }
+}

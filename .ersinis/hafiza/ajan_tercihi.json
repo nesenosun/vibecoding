@@ -1,0 +1,11 @@
+{
+  "mod": "orkestrasyon",
+  "ersinis": {
+    "cli": "opencode",
+    "model": "opencode-go/deepseek-v4-flash"
+  },
+  "isci": {
+    "cli": "agy",
+    "model": "Gemini 3.7 Flash (Medium)"
+  }
+}
